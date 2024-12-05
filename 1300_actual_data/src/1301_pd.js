@@ -1,9 +1,6 @@
 /*********************************************
     B2C Scenario Test 
     PF - PD - Cart Normal Jouney
-    Process : S28_1302
-
-    Date    : 2022-05-23
 **********************************************/
 
 const fs = require('fs');
