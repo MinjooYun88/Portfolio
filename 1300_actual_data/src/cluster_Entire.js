@@ -1,8 +1,5 @@
 /*********************************************
     Cluster_ B2B SMB Entire Mode
-    Process : cluster_Entire
-
-    Date    : 2022-05-20
 **********************************************/
 
 const cluster = require('cluster');
