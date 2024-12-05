@@ -19,8 +19,6 @@ function replace00A0(tempString) {
  
     Function : Convert Display Name String
     Process : replaceBr(tempString)
-
-    Data    : 2022-04-08
  
  ***********************************************************************/
 // Find Html Tag in String
@@ -37,8 +35,6 @@ function replaceBr(tempString) {
  
     Function : Delete Blank in Display Name
     Process : replaceBlank(tempString)
-
-    Data    : 2022-04-18
  
  ***********************************************************************/
 // Find double blank and blank at the end 
@@ -54,9 +50,7 @@ function replaceBlank(tempString) {
  
     Function : Delete newline in Display Name
     Process : replaceR(tempString)
-
-    Data    : 2022-04-19
- 
+    
  ***********************************************************************/
 // Delete newline
 function replaceR(tempString) {
@@ -69,8 +63,6 @@ function replaceR(tempString) {
     Function : Convert Tiered for Match
     Process : tieredRemake(tiered)
 
-    Data    : 2022-04-20
- 
  ***********************************************************************/
 // Convert Tiered
 function tieredRemake(tiered) {
@@ -126,8 +118,6 @@ function tieredRemake(tiered) {
  
     Function : Convert Tiered Price for Match
     Process : tpRemake(price)
-
-    Data    : 2022-04-20
  
  ***********************************************************************/
 // Convert Tiered Price
@@ -149,8 +139,6 @@ function tpRemake(price) {
     Function : Delete Blank for Null
     Process : replaceNull(tempString)
 
-    Data    : 2022-04-20
- 
  ***********************************************************************/
 // Delete Blank for Null 
 function replaceNull(tempString) {
@@ -163,8 +151,6 @@ function replaceNull(tempString) {
  
     Function : Convert Save Price for Match
     Process : tpRemake(price)
-
-    Data    : 2022-04-25
  
  ***********************************************************************/
 // Convert Save Price
@@ -182,9 +168,7 @@ function saveRemake(price) {
  
     Function : Convert N/A Price and Delete 00A0
     Process : replaceNA(tempString)
-
-    Data    : 2022-04-12
- 
+    
  ***********************************************************************/
 // Find 00A0 and N/A in Price
 function replaceNA(price) {
@@ -199,8 +183,6 @@ function replaceNA(price) {
     Function : Convert Cart Price for Match
     Process : tpRemake(price)
 
-    Data    : 2022-04-26
- 
  ***********************************************************************/
 // Convert Cart Price
 function cartRemake(price) {
@@ -221,8 +203,6 @@ function cartRemake(price) {
     Function : Convert to low letter
     Process : lowLetter(str)
 
-    Data    : 2022-05-26
- 
  ***********************************************************************/
 // Convert to low letter
 function lowLetter(str) {
@@ -236,8 +216,6 @@ function lowLetter(str) {
     Function : Remove monetary unit
     Process : removeUnit(price)
 
-    Data    : 2022-06-03
- 
  ***********************************************************************/
 // Remove monetary unit
 function removeUnit(price) {
