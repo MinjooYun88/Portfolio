@@ -3,8 +3,6 @@
     Function : Get Bulk API Data
     Process : get_BulkAPI()
 
-    Data    : 2022-05-12
- 
  ***********************************************************************/
 // Get API data
 import { getFetch } from './getFetch.js';
