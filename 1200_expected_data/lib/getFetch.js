@@ -2,8 +2,6 @@
  
     Function : Fetch API Url
     Process : getFetch(URL)
-
-    Data    : 2022-05-10
  
  ***********************************************************************/
 // Get API data in fetch
