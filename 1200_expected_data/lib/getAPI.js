@@ -3,8 +3,6 @@
     Function : Get API Data
     Process : get_API(targetAPI, targetsite)
 
-    Data    : 2022-05-10
- 
  ***********************************************************************/
 // Get API data
 import { getFetch } from './getFetch.js';
