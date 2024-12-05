@@ -2,9 +2,7 @@
  
     Function : Get PD API Data
     Process : getPDAPI(sku, targetsite)
-
-    Data    : 2022-07-06
-
+    
  ***********************************************************************/
 // Get PDAPI data
 import { getFetch } from '../.vscode/lib/getFetch.js';
