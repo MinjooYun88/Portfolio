@@ -1,8 +1,5 @@
 /*********************************************
     Cluster PD Crawling 
-    Process : cluster_PD
-
-    Date    : 2022-05-20
 **********************************************/
 
 const cluster = require('cluster');
