@@ -2,9 +2,7 @@
  
     Function : Array Bulk API Data
     Process : arrayBulkApi(targetsite, productList, start)
-
-    Data    : 2022-05-16
- 
+    
  ***********************************************************************/
 // Get Bulk API data
 import { replace00A0, replaceBr } from './convertString.js';
