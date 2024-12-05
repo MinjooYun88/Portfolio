@@ -2,8 +2,6 @@
  
     Function : Convert Price String
     Process : replace00A0(tempString)
-
-    Data    : 2022-04-07
  
  ***********************************************************************/
 // Find 0A00 Space in String + price 0 to null
