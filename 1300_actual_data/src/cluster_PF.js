@@ -1,8 +1,5 @@
 /*********************************************
     Cluster PF Crawling 
-    Process : cluster_PF
-
-    Date    : 2022-05-20
 **********************************************/
 const fs = require('fs');
 const cluster = require('cluster');
