@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "axios": "^0.26.1",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.2.3",
+    "puppeteer": "^14.1.0",
+    "puppeteer-core": "^14.1.0",
+    "request": "^2.88.2",
+    "winston": "^3.7.2",
+    "winston-daily-rotate-file": "^4.6.1",
+    "xlsx": "^0.18.5",
+    "xlsx-js-style": "^1.2.0"
+  },
+  "name": "api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "S28_1201_rq.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}

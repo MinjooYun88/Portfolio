@@ -1,0 +1,7 @@
+{
+    "cookieURL" : "https://dummy.com/getcookie.html",
+    "TargetServer" : {
+        "hshopfront" : "https://hshopfront.dummy.com",
+        "live" : "https://www.dummy.com"
+    }
+}

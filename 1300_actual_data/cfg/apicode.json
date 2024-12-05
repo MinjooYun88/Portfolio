@@ -1,0 +1,80 @@
+{
+    "01010000" : {
+        "type" : "Smartphone",
+        "url" : "/smartphones/all-smartphones/"
+    },
+
+    "01020000" : {
+        "type" : "Tablet",
+        "url" : "/tablets/all-tablets/"
+    },
+    
+    "01030000" : {
+        "type" : "Watch",
+        "url" : "/watches/all-watches/"
+    },
+
+    "01040000" : {
+        "type" : "Audio",
+        "url" : "/audio-sound/all-audio-sound/"
+    },
+
+    "01050000" : {
+        "type" : "Mobile-Accessories",
+        "url" : "/mobile-accessories/all-mobile-accessories/"
+    },
+
+    "01070000" : {
+        "type" : "Enterprise-Edition",
+        "url" : "/enterprise-edition/all-enterprise-edition/"
+    },
+
+    "03010000" : {
+        "type" : "PC",
+        "url" : "/pc/all-pc/"
+    },
+
+    "07010000" : {
+        "type" : "Monitors",
+        "url" : "/monitors/all-monitors/"
+    },
+
+    "07020000" : {
+        "type" : "Smart-Signage",
+        "url" : "/smart-signage/all-smart-signage/"
+    },
+
+    "07040000" : {
+        "type" : "Monitors",
+        "url" : "/led-signage/all-led-signage/"
+    },
+
+    "07050000" : {
+        "type" : "Commercial-tvs",
+        "url" : "/commercial-tvs/all-commercial-tvs/"
+    },
+
+    "08050000" : {
+        "type" : "Air-conditioners",
+        "url" : "/air-conditioners/all-air-conditioners/"
+    },
+    "08060000" : {
+        "type": "System-air-conditioner", 
+        "url" : "/system-air-conditioners/all-system-air-conditioners/"
+    },
+
+    "09010000" : {
+        "type": "Memory", 
+        "url" : "/memory-storage/"
+    },
+
+    "07030000" : {
+        "type": "all-display-accessories",
+        "url" : "/display-accessories/all-display-accessories/"
+    },
+    "08110000" : {
+        "type": "all-microwave-ovens",
+        "url" : "/microwave-ovens/all-microwave-ovens/"
+    }
+    
+}

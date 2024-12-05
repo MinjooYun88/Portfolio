@@ -1,0 +1,17 @@
+{
+    "AEM" : {
+        "ID" : "qauser",
+        "PW" : "qauser1!"        
+    },
+
+    "EPP" : {
+        "ID" : "jirisan2022@gmail.com",
+        "PW" : "Q1w2e3r4!"
+    },
+
+    "SMB2" : {
+        "ID" : "mountjiri2022@gmail.com",
+        "PW" : "Q1w2e3r4!"
+    }
+
+}
