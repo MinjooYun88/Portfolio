@@ -3,8 +3,6 @@
     Function : Array search API Data
     Process : arraySearchApi(targetsite, productList, start)
 
-    Data    : 2022-05-10
- 
  ***********************************************************************/
 // Get API data
 import { replace00A0, replaceBr, lowLetter, convertChip } from './convertString.js';
