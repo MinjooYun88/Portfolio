@@ -3,8 +3,6 @@
     Function : Array PD API Data
     Process : arrayPDApi(targetsite, productList, start)
 
-    Data    : 2022-07-07
- 
  ***********************************************************************/
 // Get API data
 export function arrayPDApi(targetsite, sku, data) {
