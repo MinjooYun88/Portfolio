@@ -2,8 +2,6 @@
  
     search api and actual data Merge Process
     Process : S28_1201_cmp.js
-
-    Data    : 2022-04-07
  
  ***********************************************************************/
 
