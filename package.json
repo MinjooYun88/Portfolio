@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "chai": "^5.1.2",
+    "dotenv": "^16.4.7",
+    "mysql2": "^3.11.5",
+    "node-cron": "^3.0.3",
+    "puppeteer": "^23.10.1"
+  },
+  "devDependencies": {
+    "mocha": "^11.0.1"
+  }
+}

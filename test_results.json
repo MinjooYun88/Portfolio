@@ -1,0 +1,42 @@
+[
+  {
+    "country": "uk",
+    "status": "passed",
+    "total": 0,
+    "passed": 0,
+    "failed": 0,
+    "details": []
+  },
+  {
+    "country": "au",
+    "status": "passed",
+    "total": 0,
+    "passed": 0,
+    "failed": 0,
+    "details": []
+  },
+  {
+    "country": "fr",
+    "status": "passed",
+    "total": 0,
+    "passed": 0,
+    "failed": 0,
+    "details": []
+  },
+  {
+    "country": "de",
+    "status": "passed",
+    "total": 0,
+    "passed": 0,
+    "failed": 0,
+    "details": []
+  },
+  {
+    "country": "hk",
+    "status": "passed",
+    "total": 0,
+    "passed": 0,
+    "failed": 0,
+    "details": []
+  }
+]

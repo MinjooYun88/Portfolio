@@ -1,0 +1,181 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Test Results Report</title>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        margin: 20px;
+                    }
+                    table {
+                        width: 100%;
+                        border-collapse: collapse;
+                        margin-bottom: 20px;
+                    }
+                    table, th, td {
+                        border: 1px solid black;
+                    }
+                    th, td {
+                        padding: 10px;
+                        text-align: left;
+                    }
+                    th {
+                        background-color: #f4f4f4;
+                    }
+                </style>
+            </head>
+            <body>
+                <h1>Test Results Report</h1>
+                
+                <h2>TestExecution Table</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>TestSet</th>
+                            <th>Country</th>
+                            <th>Status</th>
+                            <th>Total Tests</th>
+                            <th>Passed Tests</th>
+                            <th>Failed Tests</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                                <tr>
+                                    <td>20241211_1332_uk</td>
+                                    <td>uk</td>
+                                    <td>failed</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                    <td>2</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td>20241211_1332_au</td>
+                                    <td>au</td>
+                                    <td>failed</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                    <td>2</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td>20241211_1332_fr</td>
+                                    <td>fr</td>
+                                    <td>failed</td>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td>20241211_1332_de</td>
+                                    <td>de</td>
+                                    <td>failed</td>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td>20241211_1332_hk</td>
+                                    <td>hk</td>
+                                    <td>failed</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                    <td>2</td>
+                                </tr>
+                            
+                    </tbody>
+                </table>
+
+                <h2>TestDetails Table</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Test Set</th>
+                            <th>Test Case</th>
+                            <th>Status</th>
+                            <th>Error Message</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                                <tr>
+                                    <td>20241211_1332_uk</td>
+                                    <td>TC_001. Logo Check</td>
+                                    <td>failed</td>
+                                    <td>Waiting for selector `#component-id > div.nv00-gnb__logo-wrap > a` failed: Protocol error (Runtime.callFunctionOn): Target closed</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td>20241211_1332_uk</td>
+                                    <td>TC_002. Search Icon Check</td>
+                                    <td>failed</td>
+                                    <td>Waiting for selector `#component-id > div.nv00-gnb__inner-wrap > div.nv00-gnb__utility-wrap > div.nv00-gnb__utility.search > button` failed: Protocol error (Runtime.callFunctionOn): Target closed</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td>20241211_1332_au</td>
+                                    <td>TC_001. Logo Check</td>
+                                    <td>failed</td>
+                                    <td>Waiting for selector `#component-id > div.nv00-gnb__logo-wrap > a` failed: Waiting failed: 30000ms exceeded</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td>20241211_1332_au</td>
+                                    <td>TC_002. Search Icon Check</td>
+                                    <td>failed</td>
+                                    <td>Waiting for selector `#component-id > div.nv00-gnb__inner-wrap > div.nv00-gnb__utility-wrap > div.nv00-gnb__utility.search > button` failed: Protocol error (Runtime.callFunctionOn): Target closed</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td>20241211_1332_fr</td>
+                                    <td>TC_001. Logo Check</td>
+                                    <td>success</td>
+                                    <td></td>
+                                </tr>
+                            
+                                <tr>
+                                    <td>20241211_1332_fr</td>
+                                    <td>TC_002. Search Icon Check</td>
+                                    <td>failed</td>
+                                    <td>expected 'Recherche' to equal 'Search'</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td>20241211_1332_de</td>
+                                    <td>TC_001. Logo Check</td>
+                                    <td>success</td>
+                                    <td></td>
+                                </tr>
+                            
+                                <tr>
+                                    <td>20241211_1332_de</td>
+                                    <td>TC_002. Search Icon Check</td>
+                                    <td>failed</td>
+                                    <td>expected 'Suchen' to equal 'Search'</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td>20241211_1332_hk</td>
+                                    <td>TC_001. Logo Check</td>
+                                    <td>failed</td>
+                                    <td>Waiting for selector `#component-id > div.nv00-gnb__logo-wrap > a` failed: Waiting failed: 30000ms exceeded</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td>20241211_1332_hk</td>
+                                    <td>TC_002. Search Icon Check</td>
+                                    <td>failed</td>
+                                    <td>Waiting for selector `#component-id > div.nv00-gnb__inner-wrap > div.nv00-gnb__utility-wrap > div.nv00-gnb__utility.search > button` failed: Protocol error (Runtime.callFunctionOn): Target closed</td>
+                                </tr>
+                            
+                    </tbody>
+                </table>
+            </body>
+            </html>
+        

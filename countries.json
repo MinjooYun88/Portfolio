@@ -1,0 +1,7 @@
+{
+    "uk": { "baseUrl": "https://www.samsung.com/", "currency": "uk", "locale": "en-US" },
+    "au": { "baseUrl": "https://www.samsung.com/", "currency": "au", "locale": "ko-KR" },
+    "fr": { "baseUrl": "https://www.samsung.com/", "currency": "fr", "locale": "ja-JP" },
+    "de": { "baseUrl": "https://www.samsung.com/", "currency": "de", "locale": "fr-FR" },
+    "hk": { "baseUrl": "https://www.samsung.com/", "currency": "hk", "locale": "de-DE" }
+}
